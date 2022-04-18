@@ -1,0 +1,38 @@
+html {
+    font-size: 10px;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #131516;
+}
+.wrapper {
+    padding: 5rem;
+}
+
+.title {
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+.yellow {
+    color: #FFC600;
+}
+
+ul {
+    padding: 0;
+}
+li {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-weight: bold;
+}
+.item {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #FFC600;
+}
