@@ -1,5 +1,7 @@
 html {
   font-size: 10px;
+  background: url('../image/bg1.jpg') bottom center;
+  background-size: cover;
 }
 body,html {
     margin: 0;
