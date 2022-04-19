@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+    position: relative;
+}
 html {
     font-size: 10px;
 }
@@ -22,25 +26,46 @@ body, html {
     color: #FFC600;
 }
 
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
 ul {
-    max-width: 1700px;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     padding: 0;
-    margin: 2rem;
+    list-style: none;
 }
 
 .block{
-    width: 20%;
     display: inline-block;
     padding: 1rem;
     margin: 1rem;
     border: 1px solid #3B4042;
     border-radius: .5rem;
     font-weight: bold;
-
 }
+
+.row:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.col-lg-3{
+    width: 25%;
+    float: left;
+}
+@media screen and (max-width: 1100px) {
+    .col-md-4 {
+        width: 33.333%;
+    }
+}
+ @media screen and (max-width: 700px) {
+    .col-sm-2 {
+        width: 50%;
+    }
+}
+
 img {
     width: 100%;
 }
@@ -51,4 +76,9 @@ img {
     color: #FFC600;
     justify-content: center;
     padding-top: 1rem;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
 }
