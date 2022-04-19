@@ -76,9 +76,10 @@ img {
     color: #FFC600;
     justify-content: center;
     padding-top: 1rem;
+    height: 56px;
 
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
+    -webkit-line-clamp: 2;
     overflow: hidden;
 }
