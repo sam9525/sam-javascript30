@@ -61,6 +61,9 @@ ul {
     }
 }
  @media screen and (max-width: 700px) {
+    .wrapper {
+        padding: 3rem;
+    }
     .col-sm-2 {
         width: 50%;
     }

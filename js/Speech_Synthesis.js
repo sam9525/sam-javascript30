@@ -16,6 +16,7 @@ function populateVoices() {
 
 function setVoice() {
     msg.voice = voices.find(voice => voice.name === this.value)
+    console.log(this.value)
     toggle()
 }
 
